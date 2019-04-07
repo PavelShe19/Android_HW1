@@ -1,9 +1,11 @@
+package com.example.myprofile;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+public class MainActivity_yotam extends AppCompatActivity {
 
     static  int likecount =0;
 
@@ -21,5 +23,6 @@ import android.widget.TextView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main_yotam);
     }
 }
