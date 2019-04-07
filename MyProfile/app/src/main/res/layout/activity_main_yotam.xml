@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity_yotam">
 
     <Button
         android:id="@+id/likeBtn"
@@ -85,7 +85,7 @@
         android:layout_width="277dp"
         android:layout_height="296dp"
         android:layout_marginBottom="16dp"
-        android:contentDescription="@string/steaven"
+        android:contentDescription="@string/bob"
         app:layout_constraintBottom_toTopOf="@+id/nameText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

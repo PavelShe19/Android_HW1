@@ -1,28 +1,26 @@
-package com.example.yotamhw1android;
+package com.example.myprofile;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
+import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity_yotam extends AppCompatActivity {
 
-    static  int likecount =0;
-
-
-
-    public void likeClick (View view){
-        TextView likeCnt =(TextView)findViewById(R.id.likeCnt);
-        likecount++;
-        likeCnt.setText(String.valueOf(likecount));
-
-
-    }
-
-
+    Button btn;
+    int counter = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_yotam);
+
+        btn = (Button)findViewById(R.id.button1);
+
+    }
+
+    public void CountClick(View v)
+    {
+        counter++;
+        btn.setText("Likes number:" + String.valueOf(counter));
     }
 }
