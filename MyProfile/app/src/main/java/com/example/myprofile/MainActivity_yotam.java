@@ -18,7 +18,7 @@ public class MainActivity_yotam extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_yotam);
 
-        btn = (Button)findViewById(R.id.button1);
+        btn = (Button)findViewById(R.id.likeBtn);
         left = (ImageButton) findViewById(R.id.prev_btn);
         right = (ImageButton) findViewById(R.id.next_btn);
 

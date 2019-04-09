@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".MainActivity_yotam"></activity>
         <activity android:name=".MainActivity_pavel"></activity>
+        <activity android:name=".MainActivity_matan"></activity>
+        <activity android:name=".MainActivity_oshrit"></activity>
     </application>
 
 </manifest>
