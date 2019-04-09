@@ -24,8 +24,18 @@
     <string name="hobby3_pavel">Ice skating</string>
     <string name="hobby4_pavel">Dancing</string>
     <string name="_0_pavel">0</string>
-    <string name="jake">matan1</string>
-    <string name="name_jake">matan2</string>
-    <string name="from_adventure_time">matan3</string>
+
+    <!--matans strings-->
+    <string name="like_matan">Like!</string>
+    <string name="jake_matan">Jake</string>
+    <string name="name_jake_matan">Name: Jake</string>
+    <string name="from_adventure_time_matan">from Adventure time !</string>
+
+    <!--oshrits strings-->
+    <string name="like_oshrit">Like!</string>
+    <string name="name_steven_oshrit">Name: steven</string>
+    <string name="he_likes_cookiecat_icecream_oshrit">He likes cookiecat icecream.</string>
+    <string name="steaven_oshrit">steaven</string>
+    <string name="_0_oshrit">0</string>
 
 </resources>

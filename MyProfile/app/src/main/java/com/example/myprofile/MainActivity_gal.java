@@ -27,7 +27,7 @@ public class MainActivity_gal extends AppCompatActivity {
         right.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity_gal.this, MainActivity_pavel.class));
+                startActivity(new Intent(MainActivity_gal.this, MainActivity_oshrit.class));
             }
         });
 

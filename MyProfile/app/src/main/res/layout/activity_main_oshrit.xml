@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity_oshrit">
 
     <Button
         android:id="@+id/likeBtn"
@@ -55,7 +55,7 @@
         android:layout_marginEnd="194dp"
         android:layout_marginRight="194dp"
         android:layout_marginBottom="16dp"
-        android:text="@string/name_steven"
+        android:text="@string/name_steven_oshrit"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/nameText2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,7 +73,7 @@
         android:layout_marginEnd="96dp"
         android:layout_marginRight="96dp"
         android:layout_marginBottom="16dp"
-        android:text="@string/he_likes_cookiecat_icecream"
+        android:text="@string/he_likes_cookiecat_icecream_oshrit"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/likeCnt"
         app:layout_constraintEnd_toEndOf="parent"
@@ -85,7 +85,7 @@
         android:layout_width="277dp"
         android:layout_height="296dp"
         android:layout_marginBottom="16dp"
-        android:contentDescription="@string/steaven"
+        android:contentDescription="@string/steaven_oshrit"
         app:layout_constraintBottom_toTopOf="@+id/nameText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -98,5 +98,30 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_begin="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <ImageButton
+            android:id="@+id/prev_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_previous"
+            android:layout_alignParentLeft="true"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="674dp" />
+
+        <ImageButton
+            android:id="@+id/next_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_next"
+            android:layout_alignParentRight="true"
+            tools:layout_editor_absoluteX="351dp"
+            tools:layout_editor_absoluteY="674dp" />
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

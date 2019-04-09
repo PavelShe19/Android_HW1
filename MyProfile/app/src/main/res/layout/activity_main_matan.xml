@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="136dp"
         android:layout_marginBottom="279dp"
-        android:contentDescription="@string/jake"
+        android:contentDescription="@string/jake_matan"
         app:layout_constraintBottom_toTopOf="@+id/likeTextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,7 +72,7 @@
         android:layout_marginEnd="276dp"
         android:layout_marginRight="276dp"
         android:layout_marginBottom="183dp"
-        android:text="@string/name_jake"
+        android:text="@string/name_jake_matan"
         android:textColor="@color/colorPrimaryDark"
         android:textColorHighlight="@color/colorAccent"
         app:fontFamily="casual"
@@ -91,7 +91,7 @@
         android:layout_marginEnd="205dp"
         android:layout_marginRight="205dp"
         android:layout_marginBottom="128dp"
-        android:text="@string/from_adventure_time"
+        android:text="@string/from_adventure_time_matan"
         android:textColor="@color/colorPrimaryDark"
         android:textColorHighlight="@color/colorAccent"
         app:fontFamily="casual"
@@ -99,5 +99,30 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <ImageButton
+            android:id="@+id/prev_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_previous"
+            android:layout_alignParentLeft="true"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="674dp" />
+
+        <ImageButton
+            android:id="@+id/next_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_next"
+            android:layout_alignParentRight="true"
+            tools:layout_editor_absoluteX="351dp"
+            tools:layout_editor_absoluteY="674dp" />
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

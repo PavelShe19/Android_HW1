@@ -45,7 +45,7 @@ public class MainActivity_pavel extends AppCompatActivity {
         left.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity_pavel.this, MainActivity_gal.class));
+                startActivity(new Intent(MainActivity_pavel.this, MainActivity_matan.class));
             }
         });
     }
