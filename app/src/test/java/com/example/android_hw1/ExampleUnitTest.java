@@ -1,4 +1,4 @@
-package com.example.android_hw1;
+package com.example.Android_HW1;
 
 import org.junit.Test;
 

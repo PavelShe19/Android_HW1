@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Android_HW1.MainActivity_pavel">
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativelayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="310sp"
+        android:gravity="top"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/myImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/pic_desc_pavel"
+            android:scaleType="fitStart"
+            android:src="@drawable/nat1"
+            />
+
+        <TextView
+            android:id="@+id/myImageViewText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#00ccff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:text="@string/acc_name_pavel"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"
+            android:typeface="sans"
+            android:paddingLeft="20sp"
+            android:paddingRight="20sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/relativelayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativelayout1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+                <Button
+                    android:id="@+id/button_id1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_blue_light"
+                    android:text="@string/like_yotam"
+                    android:textColor="@android:color/white"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Counter1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@android:color/white"
+                android:padding="15sp"
+                android:text="@string/_0_yotam" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/Phone_number_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="200sp"
+            android:shadowColor="#00ccff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:text="@string/phone_num_actual_pavel"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:typeface="sans"
+            android:paddingStart="200sp" />
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18sp"
+            android:shadowColor="#00ccff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:text="@string/email_pavel"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:typeface="sans"
+            android:paddingStart="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/relativelayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="bottom"
+        android:layout_below="@id/relativelayout2"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/H_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18sp"
+            android:text="@string/hobby_title_pavel"
+            android:shadowColor="#00ccff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:typeface="sans"
+            android:paddingStart="18sp" />
+        <TextView
+            android:id="@+id/H1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18sp"
+            android:text="@string/hobby1_pavel"
+            android:shadowColor="#00ccff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:typeface="sans"
+            android:paddingStart="18sp" />
+        <TextView
+            android:id="@+id/H2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18sp"
+            android:text="@string/hobby2_pavel"
+            android:shadowColor="#00ccff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:typeface="sans"
+            android:paddingStart="18sp" />
+        <TextView
+            android:id="@+id/H3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18sp"
+            android:text="@string/hobby3_pavel"
+            android:shadowColor="#00ccff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:typeface="sans"
+            android:paddingStart="18sp" />
+        <TextView
+            android:id="@+id/H4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18sp"
+            android:text="@string/hobby4_pavel"
+            android:shadowColor="@android:color/holo_orange_light"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:typeface="sans"
+            android:paddingStart="18sp" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <ImageButton
+            android:id="@+id/prev_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_previous"
+            android:layout_alignParentLeft="true"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="674dp" />
+
+        <ImageButton
+            android:id="@+id/next_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_next"
+            android:layout_alignParentRight="true"
+            tools:layout_editor_absoluteX="351dp"
+            tools:layout_editor_absoluteY="674dp" />
+    </RelativeLayout>
+</RelativeLayout>
