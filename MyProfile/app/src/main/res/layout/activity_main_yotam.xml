@@ -20,7 +20,7 @@
         android:clickable="true"
         android:focusable="true"
         android:onClick="likeClick"
-        android:text="@string/like"
+        android:text="@string/like_yotam"
         android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/likeCnt"
@@ -37,7 +37,7 @@
         android:layout_marginEnd="121dp"
         android:layout_marginRight="121dp"
         android:layout_marginBottom="86dp"
-        android:text="@string/_0"
+        android:text="@string/_0_yotam"
         android:textIsSelectable="false"
         android:textSize="33sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -85,7 +85,7 @@
         android:layout_width="277dp"
         android:layout_height="296dp"
         android:layout_marginBottom="16dp"
-        android:contentDescription="@string/bob"
+        android:contentDescription="@string/bob_yotam"
         app:layout_constraintBottom_toTopOf="@+id/nameText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -98,5 +98,25 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_begin="20dp" />
+
+    <ImageButton
+        android:id="@+id/prev_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_media_previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="674dp" />
+
+    <ImageButton
+        android:id="@+id/next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_media_next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="351dp"
+        tools:layout_editor_absoluteY="674dp" />
 
 </android.support.constraint.ConstraintLayout>

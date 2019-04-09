@@ -5,4 +5,24 @@
     <string name="color">His favorite color is Blue!</string>
     <string name="like">like</string>
     <string name="_0">0</string>
+
+    <!--yotams strings-->
+    <string name="bob_yotam">Name: Bob</string>
+    <string name="color_yotam">His favorite color is Blue!</string>
+    <string name="like_yotam">like</string>
+    <string name="_0_yotam">0</string>
+
+    <!--pavels strings-->
+    <string name="acc_name_pavel">Natalie Portman</string>
+    <string name="like_pavel">LIKE</string>
+    <string name="number_of_likes_pavel">%1$d</string>
+    <string name="pic_desc_pavel">Picture of Natalie Portman</string>
+    <string name="phone_num_actual_pavel">055-555-0123</string>
+    <string name="email_pavel">natalieportman@gmail.com</string>
+    <string name="hobby_title_pavel">Hobbies:</string>
+    <string name="hobby1_pavel">Reading</string>
+    <string name="hobby2_pavel">Writing</string>
+    <string name="hobby3_pavel">Ice skating</string>
+    <string name="hobby4_pavel">Dancing</string>
+    <string name="_0_pavel">0</string>
 </resources>

@@ -6,20 +6,31 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
-public class MainActivity_gal extends AppCompatActivity {
+public class MainActivity_pavel extends AppCompatActivity {
 
+    TextView likes;
     Button btn;
-    int counter = 0;
-
+    int _likes;
     ImageButton left;
     ImageButton right;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_gal);
+        setContentView(R.layout.activity_main_pavel);
 
-        btn = (Button)findViewById(R.id.button1);
+        likes = findViewById(R.id.Counter1);
+        btn = (Button)findViewById(R.id.button_id1);
+        _likes = 0;
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                likes.setText(++_likes);
+            }
+        });
 
         left = (ImageButton) findViewById(R.id.prev_btn);
         right = (ImageButton) findViewById(R.id.next_btn);
@@ -27,22 +38,17 @@ public class MainActivity_gal extends AppCompatActivity {
         right.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity_gal.this, MainActivity_pavel.class));
+                startActivity(new Intent(MainActivity_pavel.this, MainActivity_yotam.class));
             }
         });
 
         left.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity_gal.this, MainActivity_yotam.class));
+                startActivity(new Intent(MainActivity_pavel.this, MainActivity_gal.class));
             }
         });
-
     }
 
-    public void CountClick(View v)
-    {
-        counter++;
-        btn.setText("Likes number:" + String.valueOf(counter));
-    }
+
 }
