@@ -1,11 +1,11 @@
-package com.example.oshrithw1android;
+package com.example.myprofile;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity_oshrit extends AppCompatActivity {
 
     static  int likecount =0;
 
@@ -23,6 +23,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_oshrit);
     }
 }
