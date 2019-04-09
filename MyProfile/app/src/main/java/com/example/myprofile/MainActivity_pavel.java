@@ -28,7 +28,7 @@ public class MainActivity_pavel extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                likes.setText(++_likes);
+                likes.setText(++_likes + "");
             }
         });
 

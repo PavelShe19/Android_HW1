@@ -19,7 +19,7 @@
         android:background="?attr/colorPrimary"
         android:clickable="true"
         android:focusable="true"
-        android:onClick="likeClick"
+        android:onClick="CountClick"
         android:text="@string/like_yotam"
         android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
