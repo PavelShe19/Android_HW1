@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">yotamHW1android</string>
     <string name="app_name">Android_HW1</string>
     <string name="bob">Name: Bob</string>
     <string name="color">His favorite color is Blue!</string>
